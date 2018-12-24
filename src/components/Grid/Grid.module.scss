@@ -1,0 +1,6 @@
+.Grid {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-column-gap: $spacing-default;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}

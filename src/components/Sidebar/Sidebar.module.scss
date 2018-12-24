@@ -1,0 +1,11 @@
+.Sidebar {
+  margin-bottom: $spacing-default;
+
+  @media (min-width: $width-small) {
+    flex-shrink: 0;
+    position: sticky;
+    top: $spacing-default;
+    width: 210px;
+    padding-left: $spacing-double;
+  }
+}

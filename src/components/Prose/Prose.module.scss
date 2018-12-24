@@ -1,0 +1,22 @@
+.Prose {
+  h1, h2, h3, h4, h5, h6 {
+    margin: $spacing-double 0 $spacing-default;
+  }
+
+  p, li {
+    margin-bottom: $spacing-default;
+  }
+
+
+  img, iframe {
+    display: block;
+    margin: $spacing-double auto;
+  }
+
+  img + em {
+    display: block;
+    margin: ($spacing-default * -1) 0 $spacing-double;
+    color: shade($color-white, 50%);
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.Center {
+  max-width: $width-standard;
+  margin: 0 auto $spacing-double;
+  padding: $spacing-default;
+}
+
+.small {
+  max-width: $width-small;
+}
+
+.large {
+  max-width: $width-large;
+}

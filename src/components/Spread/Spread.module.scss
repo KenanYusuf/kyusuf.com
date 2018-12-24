@@ -1,0 +1,13 @@
+.Spread {
+  margin-bottom: $spacing-double;
+
+  @media (min-width: $width-small) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+
+    > * {
+      overflow: hidden;
+    }
+  }
+}

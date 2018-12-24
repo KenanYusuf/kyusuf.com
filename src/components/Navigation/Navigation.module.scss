@@ -1,0 +1,31 @@
+.Navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0 $spacing-half * -1;
+
+  @media (min-width: $width-small) {
+    justify-content: flex-start;
+  }
+}
+
+.NavigationItem {
+  padding: $spacing-half;
+  text-decoration: none;
+  color: $color-black;
+
+  & + & {
+    margin-left: $spacing-half;
+  }
+
+  &:hover {
+    color: tint($color-black, 40%);
+  }
+
+  &.twitter {
+    color: $color-blue;
+
+    &:hover {
+      color: tint($color-blue, 40%);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.Header {
+  padding: $spacing-default;
+  text-align: center;
+
+  @media (min-width: $width-small) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $spacing-default $spacing-double;
+  }
+}
+
+.HeaderTitle {
+  margin: 0 0 $spacing-half;
+  font-size: 1.4rem;
+
+  @media (min-width: $width-small) {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-black;
+  }
+}

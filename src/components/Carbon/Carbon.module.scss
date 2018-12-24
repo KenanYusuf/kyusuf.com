@@ -1,0 +1,35 @@
+:global {
+  #carbonads {
+    position: relative;
+  }
+
+  .carbon-wrap {
+    display: block;
+    background: $color-offwhite;
+    border-radius: $radius-standard;
+    background: $color-offwhite;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .carbon-img {
+    display: block;
+    padding: $spacing-default $spacing-default $spacing-half;
+  }
+
+  .carbon-text {
+    display: block;
+    padding: 0 $spacing-default $spacing-double;
+  }
+
+  .carbon-poweredby {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: shade($color-white, 50%);
+  }
+}

@@ -1,0 +1,16 @@
+.Profile {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  margin: 0 auto $spacing-default;
+
+  img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  @media (min-width: $width-small) {
+    grid-column-start: 2;
+  }
+}

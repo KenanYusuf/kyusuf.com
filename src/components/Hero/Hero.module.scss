@@ -1,0 +1,30 @@
+.Hero {
+  text-align: center;
+}
+
+.HeroImage {
+  margin-bottom: $spacing-default;
+}
+
+.HeroContent {
+  padding: $spacing-default $spacing-default $spacing-treble;
+}
+
+.HeroHeading {
+  margin-bottom: $spacing-default;
+}
+
+.HeroText {
+  font-size: 1.2rem;
+  margin-bottom: $spacing-double;
+}
+
+.HeroMeta {
+  display: flex;
+  justify-content: center;
+  color: shade($color-white, 50%);
+
+  > * + * {
+    margin-left: $spacing-default;
+  }
+}
